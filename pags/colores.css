@@ -1,30 +1,24 @@
-:root {
-  --color-principal: #012060;
-  --color-contraste: #ffce00;
-  --color-terciario: #edf2fa;
-}
-
 /* Fondos */
 .bg-principal {
-  background-color: var(--color-principal) !important;
+  background-color: #012060 !important;
 }
 .bg-contraste {
-  background-color: var(--color-contraste) !important;
+  background-color: #ffce00 !important;
 }
-.bg-terciario{
-  background-color: var(--color-terciario) !important;
+.bg-terciario {
+  background-color: #edf2fa !important;
   border-radius: 15px;
 }
-.bg-frontis{
+.bg-frontis {
   background-image: url(img/frontis.jpg) !important;
 }
 
 /* Textos */
 .text-principal {
-  color: var(--color-principal) !important;
+  color: #012060 !important;
 }
 .text-contraste {
-  color: var(--color-contraste) !important;
+  color: #ffce00 !important;
 }
 .text-blanco {
   color: white !important;
@@ -32,7 +26,7 @@
 
 /* Botones */
 .btn-principal {
-  background-color: var(--color-contraste);
+  background-color: #ffce00;
   color: white;
   border: none;
 }
@@ -43,23 +37,23 @@
 
 /* Separadores */
 .hr-contraste {
-  border-top: 2px solid var(--color-contraste);
+  border-top: 2px solid #ffce00;
 }
 
-.color-principal{
+.color-principal {
   color: #012060;
 }
 
-.color-secundario{
+.color-secundario {
   color: #ffce00;
 }
 
-.text-centro{
+.text-centro {
   text-align: center;
 }
 
-/* Imagenes */
-.img-medium{
+/* Imágenes */
+.img-medium {
   width: auto;
   height: 50%;
 }
