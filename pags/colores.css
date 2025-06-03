@@ -1,0 +1,156 @@
+/* Fondos */
+.bg-principal {
+  background-color: #012060 !important;
+}
+.bg-contraste {
+  background-color: #ffce00 !important;
+}
+.bg-terciario {
+  background-color: #edf2fa !important;
+  border-radius: 15px;
+}
+.bg-frontis {
+  background-image: url(img/frontis.jpg) !important;
+}
+
+/* Textos */
+.text-principal {
+  color: #012060 !important;
+}
+.text-contraste {
+  color: #ffce00 !important;
+}
+.text-blanco {
+  color: white !important;
+}
+
+/* Botones */
+.btn-principal {
+  background-color: #ffce00;
+  color: white;
+  border: none;
+}
+.btn-principal:hover {
+  background-color: #001944;
+  color: white;
+}
+
+/* Separadores */
+.hr-contraste {
+  border-top: 2px solid #ffce00;
+}
+.hr-const{
+  border: none;
+  height: 4px;
+  width: 80px;
+  margin: 0 auto 1rem;
+  background-color: #ffce00;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.color-principal {
+  color: #012060;
+}
+
+.color-secundario {
+  color: #ffce00;
+}
+
+.text-centro {
+  text-align: center;
+}
+
+/* Imágenes */
+.img-medium {
+  width: auto;
+  height: 50%;
+}
+
+.img-cover {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.scrollable-div {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.img-circle {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.img-link {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.img-link:hover {
+  transform: scale(1.05);
+}
+/* nav */
+.menu-toggle {
+  display: none;
+}
+
+.navbar-custom {
+  background-color: #012060;
+  padding: 10px 20px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 28px;
+  color: white;
+}
+
+.sombra-custom {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.table-contraste {
+  background-color: #ffce00;
+  color: #012060;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-toggle:checked+.menu-icon+.navbar-links {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
