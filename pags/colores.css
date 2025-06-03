@@ -57,3 +57,49 @@
   width: auto;
   height: 50%;
 }
+
+/* nav */
+.menu-toggle {
+  display: none;
+}
+
+.navbar-custom {
+  background-color: #012060;
+  padding: 10px 20px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 28px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-toggle:checked+.menu-icon+.navbar-links {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
