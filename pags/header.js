@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function() {
               NOSOTROS
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/pags/mision.html">MISIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/vision.html">VISIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/valores.html">VALORES</a></li>
+              <li><a class="dropdown-item" href="pags/mision.html">MISIÓN</a></li>
+              <li><a class="dropdown-item" href="pags/vision.html">VISIÓN</a></li>
+              <li><a class="dropdown-item" href="pags/valores.html">VALORES</a></li>
             </ul>
           </li>
   
@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", function() {
               ÁREA ACADÉMICA
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/pags/direccion.html">DIRECCIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/subdireccion.html">SUBDIRECCIÓN GENERAL</a></li>
-              <li><a class="dropdown-item" href="/pags/coordinacion.html">COORD. SERVICIOS COMPLEMENTARIOS</a></li>
-              <li><a class="dropdown-item" href="/pags/actividades.html">COORD. ACTIVIDADES</a></li>
+              <li><a class="dropdown-item" href="pags/direccion.html">DIRECCIÓN</a></li>
+              <li><a class="dropdown-item" href="pags/subdireccion.html">SUBDIRECCIÓN GENERAL</a></li>
+              <li><a class="dropdown-item" href="pags/coordinacion.html">COORD. SERVICIOS COMPLEMENTARIOS</a></li>
+              <li><a class="dropdown-item" href="pags/actividades.html">COORD. ACTIVIDADES</a></li>
             </ul>
           </li>
   
@@ -65,9 +65,9 @@ document.addEventListener("DOMContentLoaded", function() {
               ÁREA ADMINISTRATIVA
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/pags/administracion.html">ADMINISTRACIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/rrhh.html">RECURSOS HUMANOS Y SEGURIDAD</a></li>
-              <li><a class="dropdown-item" href="/pags/calidad.html">CALIDAD Y ACREDITACIÓN EDUCATIVA</a></li>
+              <li><a class="dropdown-item" href="pags/administracion.html">ADMINISTRACIÓN</a></li>
+              <li><a class="dropdown-item" href="pags/rrhh.html">RECURSOS HUMANOS Y SEGURIDAD</a></li>
+              <li><a class="dropdown-item" href="pags/calidad.html">CALIDAD Y ACREDITACIÓN EDUCATIVA</a></li>
             </ul>
           </li>
   
