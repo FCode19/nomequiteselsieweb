@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Barra de navegación -->
   <nav class="navbar navbar-expand-lg bg-principal">
     <div class="container">
-      <a class="navbar-brand text-white fw-bold" href="/index.html">¡Bienvenido a la Familia Praguina!</a>
+      <a class="navbar-brand text-white fw-bold" href="index.html">¡Bienvenido a la Familia Praguina!</a>
   
       <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <ul class="navbar-nav ms-auto">
   
           <li class="nav-item">
-            <a class="nav-link text-white" href="/index.html">INICIO</a>
+            <a class="nav-link text-white" href="index.html">INICIO</a>
           </li>
   
           <!-- NOSOTROS dropdown -->
@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function() {
               NOSOTROS
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/pags/mision.html">MISIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/vision.html">VISIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/valores.html">VALORES</a></li>
+              <li><a class="dropdown-item" href="mision.html">MISIÓN</a></li>
+              <li><a class="dropdown-item" href="vision.html">VISIÓN</a></li>
+              <li><a class="dropdown-item" href="valores.html">VALORES</a></li>
             </ul>
           </li>
   
@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", function() {
               ÁREA ACADÉMICA
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/pags/direccion.html">DIRECCIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/subdireccion.html">SUBDIRECCIÓN GENERAL</a></li>
-              <li><a class="dropdown-item" href="/pags/coordinacion.html">COORD. SERVICIOS COMPLEMENTARIOS</a></li>
-              <li><a class="dropdown-item" href="/pags/actividades.html">COORD. ACTIVIDADES</a></li>
+              <li><a class="dropdown-item" href="direccion.html">DIRECCIÓN</a></li>
+              <li><a class="dropdown-item" href="subdireccion.html">SUBDIRECCIÓN GENERAL</a></li>
+              <li><a class="dropdown-item" href="coordinacion.html">COORD. SERVICIOS COMPLEMENTARIOS</a></li>
+              <li><a class="dropdown-item" href="actividades.html">COORD. ACTIVIDADES</a></li>
             </ul>
           </li>
   
@@ -65,9 +65,9 @@ document.addEventListener("DOMContentLoaded", function() {
               ÁREA ADMINISTRATIVA
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/pags/administracion.html">ADMINISTRACIÓN</a></li>
-              <li><a class="dropdown-item" href="/pags/rrhh.html">RECURSOS HUMANOS Y SEGURIDAD</a></li>
-              <li><a class="dropdown-item" href="/pags/calidad.html">CALIDAD Y ACREDITACIÓN EDUCATIVA</a></li>
+              <li><a class="dropdown-item" href="administracion.html">ADMINISTRACIÓN</a></li>
+              <li><a class="dropdown-item" href="rrhh.html">RECURSOS HUMANOS Y SEGURIDAD</a></li>
+              <li><a class="dropdown-item" href="calidad.html">CALIDAD Y ACREDITACIÓN EDUCATIVA</a></li>
             </ul>
           </li>
   
